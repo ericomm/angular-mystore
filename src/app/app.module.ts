@@ -21,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent }, // add rota para componente
       { path: 'cart', component: CartComponent },
+      { path: 'shipping', component: ShippingComponent },
     ]),
   ],
   declarations: [
@@ -30,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
+    ShippingComponent,
   ],
   bootstrap: [AppComponent],
 })
